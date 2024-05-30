@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interfaz Deteccion de Objetos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.7.1/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+
+    <style>
+        body {
+            background-image: url('Imagenes/fondo1.jpg');
+            /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen de fondo */
+            background-size: cover;
+            /* Para cubrir todo el área del cuerpo */
+            background-repeat: no-repeat;
+            /* Para que la imagen no se repita */
+            background-attachment: fixed;
+            /* Para que la imagen no se mueva al hacer scroll */
+            margin: 0;
+            /* Elimina el margen predeterminado del cuerpo */
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+            #canvasContainer {
+            display: flex;
+            flex-direction: column; /* Coloca los canvas uno debajo del otro */
+            align-items: center;
+            margin-bottom: 20px; /* Espacio entre los dos canvas */
+        
+        }
+    </style>
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <div id="canvasContainer">
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+    </div>
+    <div id="buttonsContainer">
+        <button id="videoAction" onclick="toggleVideo()">Desactivar Video</button>
+        <button id="detectionAction" onclick="toggleDetecting()">Iniciar deteccion</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

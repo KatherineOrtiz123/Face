@@ -1,0 +1,26 @@
+canvas {
+  border: 1px solid black;
+}
+
+#canvasContainer {
+  position: relative; /* Asegura que los botones estén posicionados en relación al contenedor del canvas */
+}
+
+#videoAction, #detectionAction {
+  width: 250px;
+  height: 50px;
+  background: blueviolet;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px; /* Ajusta la distancia desde la parte superior */
+}
+
+#videoAction {
+  left: calc(50% - 265px); /* Ajusta la posición izquierda para el botón de la cámara */
+}
+
+#detectionAction {
+  left: calc(50% + 15px); /* Ajusta la posición izquierda para el botón de detección */
+}

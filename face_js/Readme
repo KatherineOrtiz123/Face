@@ -1,0 +1,18 @@
+# Desarrollo Prototipo de Face.js
+## Descripción
+Este prototipo consiste en una interfaz web para la detección de objetos en tiempo real mediante una cámara web, utilizando el modelo COCO-SSD (Common Objects in Context - Single Shot MultiBox Detector) proporcionado por ml5.js, una biblioteca de machine learning en JavaScript basada en TensorFlow.js. La aplicación permite a los usuarios interactuar directamente con su entorno visual a través de una cámara web, mostrando en tiempo real la detección de objetos en el video capturado. Esta capacidad tiene aplicaciones potenciales en diversos campos, como la seguridad y vigilancia. La implementación basada en web facilita su acceso y adaptación por parte de los desarrolladores, fomentando la innovación y la escalabilidad en el ámbito de la visión por computadora y el aprendizaje automático. La colaboración entre el frontend y el backend permite una experiencia fluida, donde el frontend ofrece una interfaz intuitiva para interactuar con la detección de objetos, mientras que el backend se encarga del procesamiento de datos y la detección propiamente dicha.
+
+## Tecnologías usadas
+
+ml5.js: Esta biblioteca de machine learning en JavaScript proporciona acceso al modelo COCO-SSD (Common Objects in Context - Single Shot MultiBox Detector), que se utiliza para la detección de objetos en tiempo real a través de la cámara web.
+
+TensorFlow.js: Se utiliza como parte de ml5.js para ejecutar el modelo COCO-SSD en el navegador web, permitiendo la detección de objetos sin necesidad de conexión a un servidor remoto.
+
+HTML y CSS: Se utilizan para crear la interfaz de usuario, incluyendo la estructura HTML de la página y los estilos CSS para la presentación visual.
+
+JavaScript: Se emplea para la lógica de la aplicación tanto en el frontend como en el backend. En el frontend, se utiliza para controlar la interacción del usuario y la visualización de los resultados de detección de objetos. En el backend, se utiliza para la comunicación con el modelo COCO-SSD y el procesamiento de los resultados de detección.
+
+## Autores
+
+- Juan Esteban Acosta Rodriguez
+- Katherine Michelle Ortiz Burgos
